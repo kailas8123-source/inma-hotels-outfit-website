@@ -1,0 +1,11 @@
+<svg width="240" height="96" viewBox="0 0 240 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1" y="1" width="238" height="94" rx="10" fill="#F8F4EA" stroke="#C8B783" stroke-width="2"/>
+  <path d="M38 68V28H45.5V68H38Z" fill="#111827"/>
+  <path d="M56 68V28H63.6L82.4 54.3V28H90V68H82.5L63.6 41.8V68H56Z" fill="#111827"/>
+  <path d="M101 68V28H109.3L122 51.4L134.7 28H143V68H135.8V41.9L124.9 61.9H119.1L108.2 41.9V68H101Z" fill="#111827"/>
+  <path d="M151 68L166.5 28H174.5L190 68H182L178.7 59H162.3L159 68H151ZM164.6 52.5H176.4L170.5 36.5L164.6 52.5Z" fill="#111827"/>
+  <path d="M202 31H207V65H202V31Z" fill="#C8B783"/>
+  <path d="M214 31H219V65H214V31Z" fill="#C8B783"/>
+  <path d="M38 78H190" stroke="#C8B783" stroke-width="1.5"/>
+  <text x="38" y="88" fill="#364152" font-family="Arial, Helvetica, sans-serif" font-size="8" letter-spacing="2.6">HOTELS OUTFIT LLC - UAE</text>
+</svg>
