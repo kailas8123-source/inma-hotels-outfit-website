@@ -8,7 +8,7 @@ export function Footer() {
       <div className="footer-skyline" aria-hidden="true" />
       <div className="container footer-grid">
         <div className="footer-brand">
-          <img src="/assets/inma/inma-the-progress-web.svg" alt="INMA - The Progress" />
+          <img src="/inma-the-progress-web.svg" alt="INMA - The Progress" />
           <p>
             Premium UAE procurement, outfitting, facility support, utility trading, and commercial supply solutions for
             hospitality and enterprise operations.
