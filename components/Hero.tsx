@@ -71,12 +71,35 @@ export function Hero() {
           animate={{ opacity: 1, x: 0, scale: 1 }}
           transition={{ duration: 1.1, delay: 0.22, ease: [0.22, 1, 0.36, 1] }}
         >
-          <div className="visual-main">
-            <img src={heroImages.amenities} alt="Premium branded hotel toiletries and guest amenities supplied across the UAE" />
-          </div>
-          <div className="visual-card">
-            <span>Hotel Supply Desk</span>
-            <strong>Premium amenities, linens, guest room accessories, and hygiene products for UAE hospitality operators.</strong>
+          <div
+            className="visual-main product-composite"
+            role="img"
+            aria-label="Premium hotel supply collection with toiletries, towels, bedding, lobby accessories, and hygiene products"
+          >
+            <div className="composite-tile tile-large">
+              <img src={heroImages.amenities} alt="" />
+              <span>Branded toiletries</span>
+            </div>
+            <div className="composite-tile">
+              <img src={heroImages.towels} alt="" />
+              <span>Luxury towels</span>
+            </div>
+            <div className="composite-tile">
+              <img src={heroImages.bedding} alt="" />
+              <span>Bedsheets</span>
+            </div>
+            <div className="composite-tile">
+              <img src={heroImages.lobby} alt="" />
+              <span>Room & lobby</span>
+            </div>
+            <div className="composite-tile">
+              <img src={heroImages.hygiene} alt="" />
+              <span>Hygiene supply</span>
+            </div>
+            <div className="composite-badge">
+              <small>Hotel Supply Collection</small>
+              <strong>Amenities, linen, accessories & hygiene</strong>
+            </div>
           </div>
         </motion.div>
       </div>
