@@ -1,21 +1,8 @@
 import type { Metadata } from "next";
-import { Catamaran, Dosis } from "next/font/google";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
 import "./globals.css";
-
-const dosis = Dosis({
-  subsets: ["latin"],
-  variable: "--font-dosis",
-  display: "swap",
-});
-
-const catamaran = Catamaran({
-  subsets: ["latin"],
-  variable: "--font-catamaran",
-  display: "swap",
-});
 
 export const metadata: Metadata = {
   title: {
@@ -42,7 +29,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body className={`${dosis.variable} ${catamaran.variable}`}>
+      <body>
         <Header />
         {children}
         <FloatingWhatsApp />

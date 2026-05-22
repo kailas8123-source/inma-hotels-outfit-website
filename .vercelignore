@@ -10,6 +10,8 @@ roots-routes
 samurai-site
 vendor
 public/assets/*
+!public/assets/inma/
+!public/assets/inma/**
 !public/assets/gds/
 !public/assets/gds/**
 !public/assets/vega/

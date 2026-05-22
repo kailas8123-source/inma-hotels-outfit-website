@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Dosis:wght@200..800&display=swap");
 @import "tailwindcss";
 
 :root {
+  --font-dosis: "Dosis";
+  --font-catamaran: "Catamaran";
   --background: #fbfaf7;
   --ivory: #f4efe5;
   --ivory-2: #ede5d6;
