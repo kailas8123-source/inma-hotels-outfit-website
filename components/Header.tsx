@@ -27,7 +27,7 @@ export function Header() {
       <header className="site-header">
         <div className="container nav-shell">
           <Link className="brand" href="/" aria-label="INMA Hotels Outfit LLC home">
-            <img src="/assets/inma/inma-the-progress-logo.png" alt="INMA - The Progress" />
+            <img src="/assets/inma/inma-the-progress-web.svg" alt="INMA - The Progress" />
           </Link>
 
           <nav className="desktop-nav" aria-label="Primary navigation">

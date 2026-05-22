@@ -151,18 +151,18 @@ p {
 .brand {
   align-items: center;
   background:
-    radial-gradient(circle at 50% 42%, rgba(59, 190, 255, 0.18), transparent 58%),
-    linear-gradient(145deg, #0b1218, var(--navy));
-  border: 1px solid rgba(188, 160, 108, 0.34);
-  border-radius: 16px;
-  box-shadow: 0 18px 50px rgba(7, 26, 47, 0.2);
+    radial-gradient(circle at 50% 42%, rgba(59, 190, 255, 0.24), transparent 58%),
+    linear-gradient(145deg, #06111c, #091d32);
+  border: 1px solid rgba(59, 190, 255, 0.34);
+  border-radius: 22px;
+  box-shadow: 0 20px 58px rgba(7, 26, 47, 0.28);
   display: inline-flex;
-  height: 58px;
+  height: 72px;
   justify-content: center;
   overflow: hidden;
-  padding: 0.28rem 0.55rem;
+  padding: 0;
   transition: transform 220ms var(--ease), box-shadow 220ms var(--ease), border-color 220ms ease;
-  width: 170px;
+  width: 218px;
 }
 
 .brand:hover {
@@ -1376,16 +1376,16 @@ p {
 
 .footer-brand img {
   background:
-    radial-gradient(circle at 50% 42%, rgba(59, 190, 255, 0.2), transparent 58%),
-    linear-gradient(145deg, #0b1218, var(--navy));
-  border: 1px solid rgba(188, 160, 108, 0.3);
-  border-radius: 18px;
+    radial-gradient(circle at 50% 42%, rgba(59, 190, 255, 0.22), transparent 58%),
+    linear-gradient(145deg, #06111c, #091d32);
+  border: 1px solid rgba(59, 190, 255, 0.3);
+  border-radius: 24px;
   box-shadow: 0 22px 70px rgba(0, 0, 0, 0.22);
-  height: 108px;
+  height: auto;
   margin-bottom: 1.2rem;
   object-fit: contain;
-  padding: 0.5rem;
-  width: 170px;
+  padding: 0;
+  width: 240px;
 }
 
 .footer-brand p {
@@ -1599,8 +1599,8 @@ p {
   }
 
   .brand {
-    height: 48px;
-    width: 116px;
+    height: 54px;
+    width: 162px;
   }
 
   .floating-whatsapp {
