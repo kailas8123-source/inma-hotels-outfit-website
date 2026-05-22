@@ -154,15 +154,16 @@ p {
     radial-gradient(circle at 50% 42%, rgba(59, 190, 255, 0.24), transparent 58%),
     linear-gradient(145deg, #06111c, #091d32);
   border: 1px solid rgba(59, 190, 255, 0.34);
-  border-radius: 22px;
+  border-radius: 24px;
   box-shadow: 0 20px 58px rgba(7, 26, 47, 0.28);
   display: inline-flex;
-  height: 72px;
-  justify-content: center;
+  gap: 0.75rem;
+  height: 78px;
+  justify-content: flex-start;
   overflow: hidden;
-  padding: 0;
+  padding: 0.55rem 0.9rem 0.55rem 0.6rem;
   transition: transform 220ms var(--ease), box-shadow 220ms var(--ease), border-color 220ms ease;
-  width: 218px;
+  width: 260px;
 }
 
 .brand:hover {
@@ -171,10 +172,43 @@ p {
   transform: translateY(-2px);
 }
 
-.brand img {
+.brand-mark {
+  border-radius: 18px;
+  box-shadow: inset 0 0 0 1px rgba(112, 213, 255, 0.22), 0 0 24px rgba(59, 190, 255, 0.18);
+  flex: 0 0 74px;
+  height: 58px;
+  overflow: hidden;
+}
+
+.brand-mark img {
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
+  object-position: center;
   width: 100%;
+}
+
+.brand-copy {
+  color: white;
+  display: grid;
+  line-height: 0.95;
+  min-width: 0;
+}
+
+.brand-copy strong {
+  font-family: var(--font-dosis), Dosis, ui-sans-serif, system-ui, sans-serif;
+  font-size: 2.05rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+}
+
+.brand-copy small {
+  color: rgba(255, 255, 255, 0.78);
+  font-family: var(--font-catamaran), Catamaran, ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  margin-top: 0.22rem;
+  text-transform: uppercase;
 }
 
 .desktop-nav {
@@ -1485,7 +1519,7 @@ p {
   margin-bottom: 1.2rem;
   object-fit: contain;
   padding: 0;
-  width: 240px;
+  width: min(330px, 100%);
 }
 
 .footer-brand p {
@@ -1695,13 +1729,27 @@ p {
 }
 
 @media (max-width: 680px) {
-  .brand img {
-    width: 100%;
+  .brand {
+    border-radius: 20px;
+    gap: 0.55rem;
+    height: 62px;
+    padding: 0.45rem 0.7rem 0.45rem 0.45rem;
+    width: 194px;
   }
 
-  .brand {
-    height: 54px;
-    width: 162px;
+  .brand-mark {
+    border-radius: 15px;
+    flex-basis: 54px;
+    height: 46px;
+  }
+
+  .brand-copy strong {
+    font-size: 1.52rem;
+  }
+
+  .brand-copy small {
+    font-size: 0.64rem;
+    letter-spacing: 0.1em;
   }
 
   .floating-whatsapp {
